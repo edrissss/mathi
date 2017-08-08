@@ -5,6 +5,8 @@
  */
 html,
 body {
+    dir: 'rtl';
+
   height: 100%;
   width: 100%;
 }
@@ -13,11 +15,15 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
+    dir: 'rtl';
+
   border-color: #F05F40;
   border-width: 3px;
   max-width: 50px;
 }
 hr.light {
+    dir: 'rtl';
+
   border-color: white;
 }
 a {
@@ -36,9 +42,13 @@ h3,
 h4,
 h5,
 h6 {
+    dir: 'rtl';
+
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
+    dir: 'rtl';
+
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -148,6 +158,8 @@ aside {
   }
 }
 header {
+    dir: 'rtl';
+
   position: relative;
   width: 100%;
   min-height: auto;
